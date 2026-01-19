@@ -1,0 +1,8 @@
+{
+  "label": "Tabel Data",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Cara menyajikan data terstruktur dalam baris dan kolom."
+  }
+}
