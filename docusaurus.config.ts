@@ -10,10 +10,10 @@ const config: Config = {
 
   // --- KONFIGURASI DEPLOY (GITHUB PAGES) ---
   // Ganti 'username' dengan username GitHub asli Anda nanti saat deploy
-  url: 'https://username.github.io', 
-  baseUrl: '/qoy-devnotes/', // Sesuaikan dengan nama repo GitHub Anda nanti
+  url: 'https://learning-path.vercel.app', 
+  baseUrl: '/learning-path/', // Sesuaikan dengan nama repo GitHub Anda nanti
   organizationName: 'username', 
-  projectName: 'qoy-devnotes', 
+  projectName: 'learning-path', 
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
