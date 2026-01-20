@@ -10,8 +10,8 @@ const config: Config = {
 
   // --- KONFIGURASI DEPLOY (GITHUB PAGES) ---
   // Ganti 'username' dengan username GitHub asli Anda nanti saat deploy
-  url: '/', 
-  baseUrl: '/learning-path/', // Sesuaikan dengan nama repo GitHub Anda nanti
+  url: 'https://learning-path-qfyq8alft-faqihqoys-projects.vercel.app', 
+  baseUrl: '/', // Sesuaikan dengan nama repo GitHub Anda nanti
   organizationName: 'username', 
   projectName: 'learning-path', 
 
