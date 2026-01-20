@@ -56,5 +56,22 @@
   height: 24px;
   margin-right: 8px;
   /* GANTI SEMENTARA KE html.png AGAR TIDAK ERROR */
-  background: url('/img/html.png') no-repeat center/contain; 
+  background: url('/img/css.png') no-repeat center/contain; 
+}
+
+/* Menyisipkan Logo JavaScript */
+.header-js-link, .header-js-link {
+  display: flex;
+  align-items: center;
+}
+
+.header-js-link::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  /* Perhatikan ekstensinya .jpg sesuai file yang Anda punya */
+  background: url('/img/javascript.jpg') no-repeat center/contain;
+  border-radius: 3px; /* Opsional: biar sudutnya agak tumpul */
 }
