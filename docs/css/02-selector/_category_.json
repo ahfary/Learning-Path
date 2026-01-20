@@ -1,0 +1,8 @@
+{
+  "label": "Selector (Pemilih)",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Cara menargetkan elemen HTML yang ingin dihias."
+  }
+}
