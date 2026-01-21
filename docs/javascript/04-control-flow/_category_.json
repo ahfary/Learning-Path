@@ -1,0 +1,8 @@
+{
+  "label": "Control Flow (Percabangan)",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Membuat program bisa mengambil keputusan (If-Else & Switch)."
+  }
+}

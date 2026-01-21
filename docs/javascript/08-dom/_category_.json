@@ -1,0 +1,8 @@
+{
+  "label": "Document Object Model (DOM)",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "Menghubungkan logika JavaScript dengan elemen HTML."
+  }
+}
