@@ -4,8 +4,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
-import { JSX } from 'react';
 
+// Komponen Header (Hero)
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -15,72 +15,83 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          {/* Tombol ke Modul HTML */}
+        
+        {/* BUTTON CONTAINER */}
+        <div className={styles.buttons} style={{ gap: '15px', display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+          
+          {/* 1. Tombol HTML */}
           <Link
             className="button button--secondary button--lg"
             to="/docs/html/pengenalan/apa-itu-html">
-            Mulai Belajar HTML 🚀
+            HTML 5 🧱
           </Link>
           
-          {/* Tombol ke Modul CSS (jarak dikit) */}
+          {/* 2. Tombol CSS */}
           <Link
-            className="button button--outline button--secondary button--lg"
-            style={{marginLeft: '10px'}}
+            className="button button--secondary button--lg"
             to="/docs/css/pengenalan-css/apa-itu-css">
-            Lanjut ke CSS 🎨
+            CSS 3 🎨
           </Link>
+
+          {/* 3. Tombol JS (BARU) */}
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/js/pengenalan/intro-js">
+            JavaScript ⚡
+          </Link>
+          
         </div>
       </div>
     </header>
   );
 }
 
-// Bagian Konten Tambahan di Bawah Header
+// Komponen Konten (3 Pilar)
 function HomeContent() {
   return (
     <section style={{padding: '4rem 0'}}>
       <div className="container">
         <div className="row">
           
-          {/* Kolom 1 */}
+          {/* Kolom 1: HTML */}
           <div className="col col--4">
             <div className="text--center">
-              <span style={{fontSize: '3rem'}}>📚</span>
+              {/* Icon HTML (Bisa diganti gambar jika mau) */}
+              <span style={{fontSize: '4rem'}}>🧱</span>
             </div>
             <div className="text--center padding-horiz--md">
-              <Heading as="h3">Materi Terstruktur</Heading>
+              <Heading as="h3">Struktur (HTML)</Heading>
               <p>
-                Dokumentasi ini disusun berdasarkan urutan belajar saya, 
-                dari fundamental hingga konsep tingkat lanjut.
+                Pelajari fondasi web. Memahami tag semantik, formulir, 
+                dan tata letak dokumen yang standar.
               </p>
             </div>
           </div>
 
-          {/* Kolom 2 */}
+          {/* Kolom 2: CSS */}
           <div className="col col--4">
             <div className="text--center">
-              <span style={{fontSize: '3rem'}}>🛠️</span>
+              <span style={{fontSize: '4rem'}}>🎨</span>
             </div>
             <div className="text--center padding-horiz--md">
-              <Heading as="h3">Tech Stack Modern</Heading>
+              <Heading as="h3">Tampilan (CSS)</Heading>
               <p>
-                Fokus pada teknologi web terkini termasuk HTML5, CSS3, 
-                dan ekosistem JavaScript modern.
+                Mempercantik web dengan Flexbox, Grid, dan Animasi. 
+                Membuat tampilan responsif di semua perangkat.
               </p>
             </div>
           </div>
 
-          {/* Kolom 3 */}
+          {/* Kolom 3: JS */}
           <div className="col col--4">
             <div className="text--center">
-              <span style={{fontSize: '3rem'}}>📝</span>
+              <span style={{fontSize: '4rem'}}>⚡</span>
             </div>
             <div className="text--center padding-horiz--md">
-              <Heading as="h3">Catatan Pribadi</Heading>
+              <Heading as="h3">Logika (JavaScript)</Heading>
               <p>
-                Bukan sekadar teori, tapi juga berisi tips, trik, dan 
-                solusi dari error yang pernah saya alami.
+                Menghidupkan website. Belajar algoritma, DOM Manipulation, 
+                hingga persiapan masuk ke React.js.
               </p>
             </div>
           </div>
@@ -95,7 +106,7 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`Home`}
       description="Dokumentasi perjalanan belajar web development">
       <HomepageHeader />
       <main>

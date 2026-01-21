@@ -1,0 +1,8 @@
+{
+  "label": "Web Storage (Penyimpanan)",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+    "description": "Menyimpan data di browser pengguna secara permanen atau sementara."
+  }
+}
