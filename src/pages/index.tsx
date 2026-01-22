@@ -37,7 +37,7 @@ function HomepageHeader() {
           {/* 3. Tombol JS (BARU) */}
           <Link
             className="button button--secondary button--lg"
-            to="/docs/js/pengenalan/intro-js">
+            to="/docs/javascript/pengenalan/intro-js">
             JavaScript ⚡
           </Link>
           

@@ -81,6 +81,14 @@ const config: Config = {
           className: "header-js-link", // Class khusus untuk Icon
         },
 
+        {
+          type: "docSidebar",
+          sidebarId: "tailwindSidebar", // Harus sama dengan sidebars.ts
+          position: "left",
+          label: "Tailwind",
+          className: "header-tailwind-link", // Class khusus untuk Icon
+        },
+
         // --- MENU BLOG (Opsional) ---
         { to: "/blog", label: "Blog", position: "left" },
 

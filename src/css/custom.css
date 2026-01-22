@@ -29,6 +29,21 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+/* 1. Masukkan ke Grouping agar ukurannya sama dengan yang lain */
+.header-html-link::before,
+.header-css-link::before,
+.header-js-link::before,
+.header-tailwind-link::before { /* <-- Tambah ini */
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 /* --- Styling untuk Icon di Navbar --- */
 
 /* Pengaturan umum untuk icon navbar */
@@ -74,4 +89,9 @@
   /* Perhatikan ekstensinya .jpg sesuai file yang Anda punya */
   background: url('/img/javascript.jpg') no-repeat center/contain;
   border-radius: 3px; /* Opsional: biar sudutnya agak tumpul */
+}
+
+.header-tailwind-link::before {
+  background-image: url('/img/tailwind.png');
+  background-size: contain; /* Sesuaikan jika perlu zoom seperti CSS */
 }

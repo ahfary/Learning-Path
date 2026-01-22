@@ -1,0 +1,8 @@
+{
+  "label": "Layouting (Flex & Grid)",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Mengatur tata letak elemen menggunakan Flexbox dan Grid System."
+  }
+}
