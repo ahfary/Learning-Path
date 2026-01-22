@@ -18,7 +18,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -33,8 +33,9 @@
 .header-html-link::before,
 .header-css-link::before,
 .header-js-link::before,
-.header-tailwind-link::before { /* <-- Tambah ini */
-  content: '';
+.header-tailwind-link::before,
+.header-ts-link::before {
+  content: "";
   display: inline-block;
   vertical-align: middle;
   width: 24px;
@@ -43,7 +44,6 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
-
 /* --- Styling untuk Icon di Navbar --- */
 
 /* Pengaturan umum untuk icon navbar */
@@ -55,43 +55,50 @@
 
 /* Menyisipkan Logo HTML */
 .header-html-link::before {
-  content: '';
+  content: "";
   display: inline-block;
-  width: 24px;       /* Lebar gambar */
-  height: 24px;      /* Tinggi gambar */
+  width: 24px; /* Lebar gambar */
+  height: 24px; /* Tinggi gambar */
   margin-right: 8px; /* Jarak antara gambar dan teks */
-  background: url('/img/html.png') no-repeat center/contain;
+  background: url("/img/html.png") no-repeat center/contain;
 }
 
 /* Menyisipkan Logo CSS */
 .header-css-link::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 24px;
   height: 24px;
   margin-right: 8px;
   /* GANTI SEMENTARA KE html.png AGAR TIDAK ERROR */
-  background: url('/img/css.png') no-repeat center/contain; 
+  background: url("/img/css.png") no-repeat center/contain;
 }
 
 /* Menyisipkan Logo JavaScript */
-.header-js-link, .header-js-link {
+.header-js-link,
+.header-js-link {
   display: flex;
   align-items: center;
 }
 
 .header-js-link::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 24px;
   height: 24px;
   margin-right: 8px;
   /* Perhatikan ekstensinya .jpg sesuai file yang Anda punya */
-  background: url('/img/javascript.jpg') no-repeat center/contain;
+  background: url("/img/javascript.jpg") no-repeat center/contain;
   border-radius: 3px; /* Opsional: biar sudutnya agak tumpul */
 }
 
 .header-tailwind-link::before {
-  background-image: url('/img/tailwind.png');
+  background-image: url("/img/tailwind.png");
   background-size: contain; /* Sesuaikan jika perlu zoom seperti CSS */
+}
+
+/* Definisi Icon TS */
+.header-ts-link::before {
+  background-image: url("/img/typescript.png");
+  background-size: contain;
 }

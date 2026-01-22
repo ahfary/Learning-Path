@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: @apply Directive (Ringkas Kode)
+title: "@apply Directive (Ringkas Kode)"
 ---
 
 # @apply Directive
