@@ -1,43 +1,60 @@
 ---
 sidebar_position: 2
-title: Function Types
+title: Tipe Data Primitif
 ---
 
-# Function Types
+# Tipe Data Primitif
 
-Fungsi juga butuh tipe data:
-1.  Tipe untuk **Parameter** (Input).
-2.  Tipe untuk **Return Value** (Output).
+Cara mendeklarasikan variabel di TS adalah dengan titik dua `:` diikuti tipe datanya.
 
-## Sintaks Dasar
+## 1. String, Number, Boolean
+Tiga tipe paling dasar.
 
 ```typescript
-// (input: tipe): tipe_output
-function sapa(nama: string): string {
-  return `Halo, ${nama}`;
-}
+let nama: string = "Faqih";
+let umur: number = 25;
+let isLapar: boolean = true;
 
-const hasil = sapa("Faqih");
+// ❌ Error: Gak boleh ganti tipe
+// nama = 100; 
 ```
 
-## Void (Tidak Mengembalikan Apa-apa)
+## 2. Any (Jalan Pintas / "Dosa")
 
-Jika fungsi hanya melakukan `console.log` atau mengubah DOM dan tidak ada kata kunci `return`, gunakan tipe `void`.
+`any` artinya "Terserah". Ini mematikan fitur pengecekan TS.
+
+* **Gunakan:** Hanya saat kepepet atau migrasi dari JS lama.
+* **Hindari:** Di kode baru, karena sama aja balik jadi JS biasa.
 
 ```typescript
-function cetakPesan(pesan: string): void {
-  console.log("Pesan: " + pesan);
-  // return pesan; // ❌ Error, karena janjinya void (kosong)
-}
+let dataAcak: any = "Halo";
+dataAcak = 100; // Boleh (karena any)
+dataAcak = true; // Boleh
 ```
 
-## Function sebagai Props (React Preview)
+## 3. Union Type (Gabungan)
 
-Nanti di React, seringkali kita mengoper fungsi sebagai props (misal: `onClick`).
+Sebuah variabel bisa menerima lebih dari satu tipe. Gunakan tanda pipa `|`.
 
 ```typescript
-interface TombolProps {
-  label: string;
-  // Fungsi yang tidak menerima argumen dan tidak me-return apa2
-  onClick: () => void; 
-}
+let idUser: string | number;
+
+idUser = 101;       // Boleh
+idUser = "USR-101"; // Boleh
+// idUser = true;   // Error
+```
+
+## 4. Array
+
+Kita harus tentukan isi array-nya tipe apa.
+
+```typescript
+// Cara 1: Tipe[]
+let hobi: string[] = ["Coding", "Gaming"];
+
+// Cara 2: Array<Tipe>
+let nilai: Array<number> = [80, 90, 100];
+
+// ❌ Error
+// hobi.push(10); // Gak boleh masukin angka ke array string
+```

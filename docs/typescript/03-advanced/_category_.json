@@ -1,0 +1,8 @@
+{
+  "label": "Fitur Lanjutan (Advanced)",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Fitur TypeScript untuk membuat kode yang fleksibel (Generics & Utility)."
+  }
+}
