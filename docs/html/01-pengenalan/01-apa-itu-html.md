@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: Apa itu HTML?
 ---
-<img src="/img/html.png" alt="Logo HTML 5" width="150" style={{ marginBottom: '20px' }} />
+<img src="/img/modul/html/html.png" alt="Logo HTML 5" width="150" style={{ marginBottom: '20px' }} />
 
 # Apa itu HTML?
 
@@ -13,7 +13,7 @@ HTML **bukan** bahasa pemrograman. HTML tidak memiliki logika (*if/else*), varia
 :::
 
 ## Analogi Membangun Web
-<img src="/img/analogi.png" alt="Analogi Web HTML CSS JS" width="400" style={{ marginBottom: '20px' }} />
+<img src="/img/modul/html/analogi.png" alt="Analogi Web HTML CSS JS" width="400" style={{ marginBottom: '20px' }} />
 Untuk memahami peran HTML, bayangkan sebuah website seperti tubuh manusia:
 
 1.  **HTML (Tulang/Kerangka):** Memberikan struktur dan bentuk. Tanpa tulang, tubuh tidak bisa berdiri.
@@ -21,10 +21,14 @@ Untuk memahami peran HTML, bayangkan sebuah website seperti tubuh manusia:
 3.  **JavaScript (Otak/Otot):** Memberikan fungsionalitas, interaksi, dan logika.
 
 ## Sejarah Singkat
-HTML diciptakan oleh **Tim Berners-Lee** pada tahun 1991. Versi yang kita gunakan saat ini adalah **HTML5** (dirilis 2014), yang membawa fitur modern seperti pemutaran video/audio tanpa plugin tambahan dan elemen semantik yang lebih baik untuk SEO.
+
+HTML diciptakan oleh **Tim Berners-Lee** pada tahun 1991. Versi yang kita gunakan saat ini adalah **HTML5** 
+<img src="/img/modul/html/sejarah.jpeg" alt="Timeline HTML" width="600" style={{ marginBottom: '20px' }} />
+(dirilis 2014), yang membawa fitur modern seperti pemutaran video/audio tanpa plugin tambahan dan elemen semantik yang lebih baik untuk SEO.
 
 ## Sintaks Dasar
 HTML terdiri dari serangkaian elemen yang dibungkus oleh *tags*.
+<img src="/img/modul/html/struktur-tag.jpg" alt="Struktur Tag HTML" width="400" style={{ marginBottom: '20px' }} />
 
 ```html
 <namatag>Konten di sini</namatag>
