@@ -13,6 +13,7 @@ HTML **bukan** bahasa pemrograman. HTML tidak memiliki logika (*if/else*), varia
 :::
 
 ## Analogi Membangun Web
+<img src="/img/analogi.png" alt="Analogi Web HTML CSS JS" width="400" style={{ marginBottom: '20px' }} />
 Untuk memahami peran HTML, bayangkan sebuah website seperti tubuh manusia:
 
 1.  **HTML (Tulang/Kerangka):** Memberikan struktur dan bentuk. Tanpa tulang, tubuh tidak bisa berdiri.
