@@ -4,10 +4,23 @@ title: Heading & Paragraf
 ---
 
 # Heading & Paragraf
+<img 
+  src="/img/modul/html/h.jpg" 
+  alt="Icon teks, dokumen, atau tumpukan paragraf" 
+  style={{ maxWidth: '100%', borderRadius: '8px', margin: '16px 0' }} 
+/>
+*Sumber: [Unsplash](https://unsplash.com/) - 
 
 HTML menyediakan elemen khusus untuk menyusun teks. Penting untuk menggunakan elemen ini sesuai **maknanya (semantik)**, bukan sekadar untuk mengatur ukuran huruf.
 
 ## Heading (Judul)
+
+<img 
+  src="/img/modul/html/he.jpeg" 
+  alt="Diagram hierarki heading H1 sampai H6" 
+  style={{ maxWidth: '100%', borderRadius: '8px', margin: '16px 0' }} 
+/>
+*Sumber: [Pixabay](https://pixabay.com/) - 
 
 Heading digunakan untuk membuat judul bab atau sub-bab. Ada 6 level, dari `<h1>` (terbesar) sampai `<h6>` (terkecil).
 
@@ -45,6 +58,13 @@ VS Code akan otomatis membuatkan satu paragraf teks bahasa latin (*dummy text*) 
 
 ## Formatting Teks (Semantik vs Visual)
 
+<img 
+  src="/img/modul/html/formating.jpg" 
+  alt="Diagram hierarki heading H1 sampai H6" 
+  style={{ maxWidth: '100%', borderRadius: '8px', margin: '16px 0' }} 
+/>
+*Sumber: [Pixabay](https://pixabay.com/) - 
+
 Di HTML modern (HTML5), kita membedakan antara tag untuk **gaya** (tampilan) dan tag untuk **makna** (struktur).
 
 | Tampilan | Tag Lama (Visual) | Tag Baru (Semantik) | Kapan Dipakai? |
@@ -55,6 +75,13 @@ Di HTML modern (HTML5), kita membedakan antara tag untuk **gaya** (tampilan) dan
 | ~~Coret~~ | `<s>` | `<del>` | Gunakan `<del>` untuk data yang sudah dihapus. |
 
 ### Contoh Penggunaan
+
+<img 
+  src="/img/modul/html/contoh.png" 
+  alt="Diagram hierarki heading H1 sampai H6" 
+  style={{ maxWidth: '100%', borderRadius: '8px', margin: '16px 0' }} 
+/>
+*Sumber: [Pixabay](https://pixabay.com/) - 
 
 ```html
 <p>

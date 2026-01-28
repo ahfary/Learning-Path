@@ -4,10 +4,25 @@ title: HTML Boilerplate
 ---
 
 # HTML Boilerplate (Kerangka Wajib)
+<img 
+  src="/img/modul/html/kerangka.png" 
+  alt="Ilustrasi kerangka halaman web head dan body" 
+  style={{ maxWidth: '50%', borderRadius: '8px', margin: '16px 0' }} 
+/>
+
+*Sumber: [Figma](https://www.figma.com/)*
 
 Setiap file HTML yang valid harus memiliki struktur standar yang disebut *Boilerplate*. Tanpa ini, browser mungkin akan menampilkan halaman dengan mode "Quirks" (mode kompatibilitas jadul) yang bisa merusak tampilan.
 
 ## Cara Cepat (VS Code Shortcut)
+
+<img 
+  src="/img/modul/html/seru.png" 
+  alt="Screenshot VS Code dengan tanda seru ! di file .html" 
+  style={{ maxWidth: '100%', borderRadius: '8px', margin: '16px 0' }} 
+/>
+
+*Sumber: [StackOverflow](https://stackoverflow.com/)*
 Jangan mengetik manual. Di VS Code:
 1. Buka file `.html`.
 2. Ketik tanda seru `!`.
@@ -26,6 +41,7 @@ VS Code akan otomatis membuatkan kode berikut:
     <body></body>
 </html>
 ```
+
 ## Bedah Kode (Penjelasan Teknis)
 
 | Elemen | Fungsi Objektif |
@@ -35,6 +51,14 @@ VS Code akan otomatis membuatkan kode berikut:
 | `<head>` | Area untuk metadata. Isinya **tidak tampil** di halaman web (kecuali judul di tab browser). |
 | `<meta charset="UTF-8">` | Memastikan browser bisa menampilkan huruf unik, simbol, dan emoji (encoding standar web). |
 | `<body>` | Wadah untuk semua konten yang **tampil** di layar (teks, gambar, tombol). |
+
+<img 
+  src="/img/modul/html/salah.webp" 
+  alt="Screenshot VS Code dengan tanda seru ! di file .html" 
+  style={{ maxWidth: '10%', borderRadius: '8px', margin: '16px 0' }} 
+/>
+
+*Sumber: [dreamstime](https://stackoverflow.com/)*
 
 :::danger Kesalahan Pemula
 Jangan pernah menulis elemen visual (seperti `<h1>` atau `<p>`) di dalam area `<head>`. Semua konten visual wajib masuk di dalam `<body>`.
