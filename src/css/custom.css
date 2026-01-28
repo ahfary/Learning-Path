@@ -34,7 +34,8 @@
 .header-css-link::before,
 .header-js-link::before,
 .header-tailwind-link::before,
-.header-ts-link::before {
+.header-ts-link::before,
+.header-react-link::before {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -101,4 +102,9 @@
 .header-ts-link::before {
   background-image: url("/img/typescript.png");
   background-size: contain;
+}
+
+.header-react-link::before {
+  background-image: url('/img/react.png');
+  background-size: contain; 
 }

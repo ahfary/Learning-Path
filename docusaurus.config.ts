@@ -96,6 +96,14 @@ const config: Config = {
           label: "TypeScript",
           className: "header-ts-link", // Class icon baru
         },
+        
+        {
+          type: "docSidebar",
+          sidebarId: "reactSidebar",
+          position: "left",
+          label: "React",
+          className: "header-react-link",
+        },
 
         // --- MENU BLOG (Opsional) ---
         { to: "/blog", label: "Blog", position: "left" },
