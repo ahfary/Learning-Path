@@ -4,10 +4,22 @@ title: Images (Gambar)
 ---
 
 # Menambahkan Gambar
+<img 
+  src="/img/modul/html/img.jpg" 
+  alt="Ilustrasi tag img HTML" 
+  style={{ maxWidth: '100%', borderRadius: '8px', margin: '16px 0' }} 
+/>
+*Sumber: [html.com](https://html.com) -*
 
 Web tanpa gambar akan membosankan. Di HTML, kita menggunakan tag `<img>` untuk menampilkan gambar.
 
 ## Sintaks Dasar
+<img 
+  src="/img/modul/html/img2.avif" 
+  alt="Contoh sintaks dasar tag img HTML" 
+  style={{ maxWidth: '50%', borderRadius: '8px', margin: '16px 0' }} 
+/>
+*Sumber: [bikin.website](https://bikin.website) -*
 Tag `<img>` adalah *self-closing tag* (tidak memiliki tag penutup `</img>`).
 
 ```html
@@ -15,6 +27,12 @@ Tag `<img>` adalah *self-closing tag* (tidak memiliki tag penutup `</img>`).
 ```
 
 ### Atribut Wajib
+<img 
+  src="/img/modul/html/img3.png" 
+  alt="Contoh sintaks dasar tag img HTML" 
+  style={{ maxWidth: '100%', borderRadius: '8px', margin: '16px 0' }} 
+/>
+*Sumber: [bikin.website](https://bikin.website) -*
 
 1. **`src` (Source):** Lokasi file gambar. Bisa berupa link online (`https://...`) atau file lokal di komputer.
 2. **`alt` (Alternative Text):** Teks pengganti jika gambar gagal dimuat.
