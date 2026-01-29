@@ -24,23 +24,43 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/html/pengenalan/apa-itu-html">
-            HTML 5 🧱
+            HTML 5
           </Link>
           
           {/* 2. Tombol CSS */}
           <Link
             className="button button--secondary button--lg"
             to="/docs/css/pengenalan-css/apa-itu-css">
-            CSS 3 🎨
+            CSS 3
           </Link>
 
           {/* 3. Tombol JS (BARU) */}
           <Link
             className="button button--secondary button--lg"
             to="/docs/javascript/pengenalan/intro-js">
-            JavaScript ⚡
+            JavaScript
           </Link>
           
+          {/* 4. Tombol Tailwind (BARU) */}
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/tailwind/pengenalan/tailwind-intro">
+            Tailwind CSS
+          </Link>
+          
+          {/* 5. Tombol TypeScript (BARU) */}
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/typescript/pengenalan/apa-itu-typescript">
+            TypeScript
+          </Link>
+
+          {/* 6. Tombol React (BARU) */}
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/react/pengenalan/apa-itu-react">
+            React.js
+          </Link>
         </div>
       </div>
     </header>

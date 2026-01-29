@@ -104,16 +104,6 @@ const config: Config = {
           label: "React",
           className: "header-react-link",
         },
-
-        // --- MENU BLOG (Opsional) ---
-        { to: "/blog", label: "Blog", position: "left" },
-
-        // --- LINK GITHUB (Kanan) ---
-        {
-          href: "https://github.com/username/repo-anda",
-          label: "GitHub",
-          position: "right",
-        },
       ],
     },
 
