@@ -8,6 +8,12 @@ title: Jenis-Jenis Input
 Tag `<input>` adalah elemen paling fleksibel di HTML karena bentuknya bisa berubah-ubah tergantung atribut `type`-nya.
 
 ## Input Teks Populer
+<img 
+  src="/img/modul/html/input.jpg" 
+  alt="Visualisasi Diagram Alir Input Teks"
+  style={{ width: '30%', maxWidth: '600px', borderRadius: '8px', margin: '16px 0' }}
+/>
+
 
 | Tipe | Fungsi | Contoh Kode |
 | :--- | :--- | :--- |
@@ -20,6 +26,11 @@ Tag `<input>` adalah elemen paling fleksibel di HTML karena bentuknya bisa berub
 ## Pilihan (Selection)
 
 ### 1. Radio Button (Pilih Satu)
+<img
+src="/img/modul/html/radio.png"
+alt="Visualisasi Radio Button"
+style={{ width: '40%', maxWidth: '600px', borderRadius: '8px', margin: '16px 0' }}
+/>
 Gunakan jika pengguna hanya boleh memilih **satu** opsi dari beberapa pilihan (misal: Jenis Kelamin).
 * **Wajib:** Nilai atribut `name` harus **sama** agar mereka menjadi satu grup (tidak bisa dicentang dua-duanya).
 
@@ -33,6 +44,11 @@ Gunakan jika pengguna hanya boleh memilih **satu** opsi dari beberapa pilihan (m
 ```
 
 ### 2. Checkbox (Pilih Banyak)
+<img
+src="/img/modul/html/check.png"
+alt="Visualisasi Checkbox"
+style={{ width: '40%', maxWidth: '600px', borderRadius: '8px', margin: '16px 0' }}
+/>
 
 Gunakan jika pengguna boleh memilih lebih dari satu opsi (misal: Hobi).
 
@@ -46,6 +62,11 @@ Gunakan jika pengguna boleh memilih lebih dari satu opsi (misal: Hobi).
 ```
 
 ### 3. Dropdown (Select)
+<img
+src="/img/modul/html/dropdown.png"
+alt="Visualisasi Dropdown Select"
+style={{ width: '50%', maxWidth: '600px', borderRadius: '8px', margin: '16px 0' }}
+/>
 
 Gunakan untuk menghemat tempat jika pilihannya banyak (misal: Daftar Provinsi).
 
@@ -61,6 +82,11 @@ Gunakan untuk menghemat tempat jika pilihannya banyak (misal: Daftar Provinsi).
 ---
 
 ## Input Teks Panjang (`textarea`)
+<img
+src="/img/modul/html/area.png"
+alt="Visualisasi Textarea"
+style={{ width: '100%', maxWidth: '600px', borderRadius: '8px', margin: '16px 0' }}
+/>
 
 Untuk pesan, alamat, atau komentar, jangan pakai `input type="text"`, tapi gunakan `<textarea>`.
 
@@ -72,7 +98,11 @@ Untuk pesan, alamat, atau komentar, jangan pakai `input type="text"`, tapi gunak
 ---
 
 ## Tombol Submit
-
+<img
+src="/img/modul/html/submit.jpg"
+alt="Visualisasi Tombol Submit"
+style={{ width: '10%', maxWidth: '600px', borderRadius: '8px', margin: '16px 0' }}
+/>
 Tanpa tombol ini, form tidak bisa dikirim.
 
 ```html

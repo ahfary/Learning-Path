@@ -5,7 +5,39 @@ title: Struktur Dasar Form
 
 # Struktur Dasar Form
 
+<pre>
++------------+
+| Mulai Form |
++------------+
+      |
+      v
++-----------+
+| Input Data|
++-----------+
+      |
+      v
++-----------+
+| KlikSubmit|
++-----------+
+      |
+      v
++-------------------+
+| Kirim ke Backend  |
++-------------------+
+      |
+      v
++-------------------+
+| Backend Proses    |
++-------------------+
+      |
+      v
++------------+
+|  Selesai  |
++------------+
+</pre>
+
 Formulir digunakan untuk mengumpulkan data dari pengguna.
+
 
 ## Tag `<form>`
 Semua elemen input harus dibungkus dalam tag `<form>`.
@@ -17,6 +49,12 @@ Semua elemen input harus dibungkus dalam tag `<form>`.
 ```
 
 ### Atribut Penting pada `<form>`
+<img 
+  src="/img/modul/html/atribut.png" 
+  alt="Contoh atribut penting pada form HTML"
+  style={{ width: '50%', maxWidth: '600px', borderRadius: '8px', margin: '16px 0' }}
+/>
+*Sumber: [phptutorial.net](https://www.phptutorial.net/php-tutorial/php-prg/) -*
 
 1. **`action`**: Tujuan data dikirim (URL Backend/API). Jika dikosongkan, data akan dikirim ke halaman itu sendiri.
 2. **`method`**: Cara data dikirim.
@@ -28,6 +66,7 @@ Semua elemen input harus dibungkus dalam tag `<form>`.
 :::danger Realita Teknis
 HTML hanyalah **tampilan** (Frontend). Agar formulir benar-benar bisa berfungsi (misal: mengirim email atau menyimpan ke database), Anda memerlukan bahasa pemrograman **Backend** (seperti PHP, Python, atau Node.js) untuk memproses atribut `action` tersebut.
 :::
+
 
 ## Label & Input (Pasangan Wajib)
 
