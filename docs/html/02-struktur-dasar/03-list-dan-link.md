@@ -4,6 +4,12 @@ title: List & Link
 ---
 
 # List & Hyperlink
+<img 
+  src="/img/modul/html/website.jpg" 
+  alt="Ilustrasi website dengan link dan halaman" 
+  style={{ maxWidth: '100%', borderRadius: '8px', margin: '16px 0' }} 
+/>
+*Sumber: [mostar.co.id](https://mostar.co.id) -*
 
 Web tanpa link hanyalah dokumen mati. Di bab ini, kita akan belajar cara menyusun daftar (list) dan menghubungkan halaman web satu sama lain (hyperlink).
 
@@ -12,6 +18,14 @@ Web tanpa link hanyalah dokumen mati. Di bab ini, kita akan belajar cara menyusu
 HTML memiliki dua jenis daftar utama: yang urutannya **tidak penting** (bullet points) dan yang **penting** (nomor).
 
 ### 1. Unordered List (Bullet Points)
+
+<img 
+  src="/img/modul/html/diagram.jpg" 
+  alt="Diagram struktur unordered list HTML" 
+  style={{ maxWidth: '100%', borderRadius: '8px', margin: '16px 0' }} 
+/>
+*Sumber: [poweredtemplate.com](https://poweredtemplate.com) -*
+
 Gunakan tag `<ul>` (*Unordered List*) jika urutan poin tidak mempengaruhi makna. Setiap butir daftar dibungkus dengan tag `<li>` (*List Item*).
 
 ```html
@@ -55,6 +69,13 @@ Anda bisa memasukkan list di dalam list (Nested List). Contohnya membuat sub-bab
 ---
 
 ## Hyperlink (Anchor Tag)
+
+<img 
+  src="/img/modul/html/anchor.png" 
+  alt="Diagram struktur unordered list HTML" 
+  style={{ maxWidth: '100%', borderRadius: '8px', margin: '16px 0' }} 
+/>
+*Sumber: [bikin.website.com](https://bikin.website.com) -*
 
 Tag `<a>` (*Anchor*) adalah elemen terpenting yang membuat web saling terhubung. Atribut wajibnya adalah `href` (*Hypertext Reference*).
 
