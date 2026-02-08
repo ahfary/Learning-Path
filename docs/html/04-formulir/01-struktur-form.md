@@ -5,37 +5,6 @@ title: Struktur Dasar Form
 
 # Struktur Dasar Form
 
-<pre>
-+------------+
-| Mulai Form |
-+------------+
-      |
-      v
-+-----------+
-| Input Data|
-+-----------+
-      |
-      v
-+-----------+
-| KlikSubmit|
-+-----------+
-      |
-      v
-+-------------------+
-| Kirim ke Backend  |
-+-------------------+
-      |
-      v
-+-------------------+
-| Backend Proses    |
-+-------------------+
-      |
-      v
-+------------+
-|  Selesai  |
-+------------+
-</pre>
-
 Formulir digunakan untuk mengumpulkan data dari pengguna.
 
 
