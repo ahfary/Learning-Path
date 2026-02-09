@@ -34,31 +34,33 @@ function HomepageHeader() {
             CSS 3
           </Link>
 
-          {/* 3. Tombol JS (BARU) */}
+          {/* 3. Tombol JS */}
           <Link
             className="button button--secondary button--lg"
             to="/docs/javascript/pengenalan/intro-js">
             JavaScript
           </Link>
           
-          {/* 4. Tombol Tailwind (BARU) */}
+          {/* 4. Tombol Tailwind (LINK DIPERBAIKI) */}
           <Link
             className="button button--secondary button--lg"
-            to="/docs/tailwind/pengenalan/tailwind-intro">
+            to="/docs/tailwind/pengenalan/apa-itu-tailwind">
             Tailwind CSS
           </Link>
           
-          {/* 5. Tombol TypeScript (BARU) */}
+          {/* 5. Tombol TypeScript (LINK DIPERBAIKI) */}
+          {/* Folder: 01-dasar, File: 01-apa-itu-ts.md */}
           <Link
             className="button button--secondary button--lg"
-            to="/docs/typescript/pengenalan/apa-itu-typescript">
+            to="/docs/typescript/dasar/apa-itu-ts">
             TypeScript
           </Link>
 
-          {/* 6. Tombol React (BARU) */}
+          {/* 6. Tombol React (LINK DIPERBAIKI) */}
+          {/* Folder: 01-dasar, File: 01-pengenalan.md */}
           <Link
             className="button button--secondary button--lg"
-            to="/docs/react/pengenalan/apa-itu-react">
+            to="/docs/react/dasar/pengenalan">
             React.js
           </Link>
         </div>
@@ -67,56 +69,40 @@ function HomepageHeader() {
   );
 }
 
-// Komponen Konten (3 Pilar)
+// ... Sisanya (HomeContent dan Default Function) biarkan sama ...
+// (Pastikan HomeContent dan function Home tetap ada di bawah)
 function HomeContent() {
   return (
     <section style={{padding: '4rem 0'}}>
       <div className="container">
         <div className="row">
-          
-          {/* Kolom 1: HTML */}
           <div className="col col--4">
             <div className="text--center">
-              {/* Icon HTML (Bisa diganti gambar jika mau) */}
               <span style={{fontSize: '4rem'}}>🧱</span>
             </div>
             <div className="text--center padding-horiz--md">
               <Heading as="h3">Struktur (HTML)</Heading>
-              <p>
-                Pelajari fondasi web. Memahami tag semantik, formulir, 
-                dan tata letak dokumen yang standar.
-              </p>
+              <p>Pelajari fondasi web. Memahami tag semantik, formulir, dan tata letak dokumen.</p>
             </div>
           </div>
-
-          {/* Kolom 2: CSS */}
           <div className="col col--4">
             <div className="text--center">
               <span style={{fontSize: '4rem'}}>🎨</span>
             </div>
             <div className="text--center padding-horiz--md">
               <Heading as="h3">Tampilan (CSS)</Heading>
-              <p>
-                Mempercantik web dengan Flexbox, Grid, dan Animasi. 
-                Membuat tampilan responsif di semua perangkat.
-              </p>
+              <p>Mempercantik web dengan Flexbox, Grid, dan Animasi Responsif.</p>
             </div>
           </div>
-
-          {/* Kolom 3: JS */}
           <div className="col col--4">
             <div className="text--center">
               <span style={{fontSize: '4rem'}}>⚡</span>
             </div>
             <div className="text--center padding-horiz--md">
-              <Heading as="h3">Logika (JavaScript)</Heading>
-              <p>
-                Menghidupkan website. Belajar algoritma, DOM Manipulation, 
-                hingga persiapan masuk ke React.js.
-              </p>
+              <Heading as="h3">Logika (React & TS)</Heading>
+              <p>Membangun aplikasi web modern yang interaktif dan aman.</p>
             </div>
           </div>
-
         </div>
       </div>
     </section>

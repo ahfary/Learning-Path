@@ -145,10 +145,6 @@ const config: Config = {
           title: "Lainnya",
           items: [
             {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
               label: "GitHub Repo",
               href: "https://github.com/ahfary",
             },
