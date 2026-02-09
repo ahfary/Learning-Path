@@ -12,6 +12,15 @@ Di tahun 2000-an, tabel sering dipakai untuk mengatur tata letak web (misal: mem
 :::
 
 ## Struktur Utama
+<img
+  src="/img/modul/html/create.webp"
+  alt="Struktur Dasar Tabel HTML"
+  style={{ width: '50%', maxWidth: '600px', borderRadius: '8px', margin: '16px auto', display: 'block' }}
+/>
+
+<small>
+Sumber gambar: myschoolhouse.in – Materi pembelajaran HTML Table
+</small>
 
 Tabel dibentuk row-by-row (baris demi baris).
 1.  `<tr>` (*Table Row*): Membungkus satu baris.
@@ -43,6 +52,14 @@ Tabel dibentuk row-by-row (baris demi baris).
 ```
 
 ### Penjelasan Atribut `border="1"`
+<img
+src="/img/modul/html/tag.jpg
+"
+alt="Contoh Tabel HTML dengan Atribut Border"
+style={{ width: '50%', maxWidth: '600px', borderRadius: '8px', margin: '16px auto', display: 'block' }}
+/>
+
+<small> Sumber gambar: course-net.com – Contoh penggunaan tabel HTML </small>
 
 Secara bawaan, tabel HTML tidak memiliki garis. Kita menambahkan `border="1"` hanya untuk tujuan **belajar** agar strukturnya terlihat.
 

@@ -14,6 +14,15 @@ Dalam HTML, *Semantic Elements* adalah elemen yang **menjelaskan isinya** kepada
 Perhatikan perbandingan dua kode di bawah ini yang secara visual (tampilan) mungkin terlihat sama persis di layar, tetapi berbeda maknanya bagi mesin.
 
 ### 1. Non-Semantik (Cara Lama/Buruk)
+<img
+  src="/img/modul/html/non-semantik.png"
+  alt="Struktur HTML Non-Semantik Menggunakan Div"
+  style={{ width: '70%', maxWidth: '600px', borderRadius: '8px', margin: '16px auto', display: 'block' }}
+/>
+
+<small>
+Struktur HTML non-semantik (menggunakan &lt;div&gt;)
+</small>
 Menggunakan tag generik `<div>` untuk segalanya. Browser tidak tahu mana yang judul, mana yang konten, mana yang menu.
 
 ```html
@@ -24,6 +33,13 @@ Menggunakan tag generik `<div>` untuk segalanya. Browser tidak tahu mana yang ju
 ```
 
 ### 2. Semantik (Standar HTML5)
+<img
+src="/img/modul/html/semantik.jpg"
+alt="Struktur HTML Semantik HTML5"
+style={{ width: '70%', maxWidth: '600px', borderRadius: '8px', margin: '16px auto', display: 'block' }}
+/>
+
+<small> Struktur HTML semantik (HTML5) </small>
 
 Menggunakan tag khusus yang memiliki arti.
 

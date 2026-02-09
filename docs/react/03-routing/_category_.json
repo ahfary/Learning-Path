@@ -1,0 +1,8 @@
+{
+  "label": "React Router (Routing)",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Membuat navigasi halaman tanpa reload (SPA)."
+  }
+}

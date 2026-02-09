@@ -4,6 +4,15 @@ title: Elemen Layout Utama
 ---
 
 # Elemen Layout Utama
+<img
+  src="/img/modul/html/layout.jpg"
+  alt="Diagram Struktur Layout HTML5"
+  style={{ width: '50%', maxWidth: '700px', borderRadius: '8px', margin: '16px auto', display: 'block' }}
+/>
+
+<small>
+Diagram struktur layout halaman web HTML5 (header, nav, main, aside, footer)
+</small>
 
 Berikut adalah diagram standar struktur halaman web modern menggunakan HTML5.
 

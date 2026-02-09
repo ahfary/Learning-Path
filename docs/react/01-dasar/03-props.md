@@ -20,7 +20,6 @@ interface KartuProps {
   umur: number;
   pekerjaan?: string; // Opsional
 }
-
 ```
 
 ### 2. Terapkan di Komponen
@@ -38,7 +37,6 @@ const Kartu = ({ nama, umur, pekerjaan }: KartuProps) => {
     </div>
   );
 };
-
 ```
 
 ### 3. Cara Pakai (Aman Terkendali)

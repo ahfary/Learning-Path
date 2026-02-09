@@ -4,6 +4,15 @@ title: Menggabungkan Sel (Merge)
 ---
 
 # Menggabungkan Sel (Merge)
+<img
+  src="/img/modul/html/merge.png"
+  alt="Contoh Penggabungan Sel Tabel HTML dengan Colspan dan Rowspan"
+  style={{ width: '70%', maxWidth: '600px', borderRadius: '8px', margin: '16px auto', display: 'block' }}
+/>
+
+<small>
+Sumber gambar: learntosap.com – HTML Table Colspan & Rowspan
+</small>
 
 Terkadang kita perlu menggabungkan dua sel atau lebih menjadi satu. Di HTML, kita menggunakan atribut **`colspan`** dan **`rowspan`**.
 
