@@ -9,6 +9,12 @@ HTML5 merevolusi web dengan memungkinkan kita memutar musik dan video langsung d
 
 ## Audio (Suara)
 Gunakan tag `<audio>`. Anda **wajib** menambahkan atribut `controls` agar tombol play/pause muncul.
+<img 
+  src="/img/modul/html/audio.png" 
+  alt="Contoh custom HTML5 audio player"
+  style={{ maxWidth: '50%', borderRadius: '8px', margin: '16px 0' }}
+/>
+*Sumber: [codeconvey.com](https://codeconvey.com/customize-html5-audio-player-css/) -*
 
 ```html
 <audio controls>
@@ -24,6 +30,12 @@ Gunakan tag `<audio>`. Anda **wajib** menambahkan atribut `controls` agar tombol
 ## Video (Native HTML5)
 
 Gunakan tag `<video>`. Sama seperti audio, atribut `controls` wajib ada.
+<img
+src="/img/modul/html/video.png"
+alt="Contoh HTML5 native video player"
+style={{ maxWidth: '100%', borderRadius: '8px', margin: '16px 0' }}
+/>
+*Sumber: [designsystem.com](https://designsystem.line.me/LDSG/components/contents/video-player-en/) -*
 
 ```html
 <video width="320" height="240" controls poster="sampul-video.jpg">
@@ -44,6 +56,12 @@ Gunakan tag `<video>`. Sama seperti audio, atribut `controls` wajib ada.
 ## Embed Video (YouTube) - *Best Practice*
 
 Hosting file video sendiri (`.mp4`) memakan banyak *bandwidth* dan ruang server. Cara paling efisien dan gratis adalah mengupload video ke YouTube, lalu menanamnya (*embed*) di web Anda.
+<img
+src="/img/modul/html/embed.png"
+alt="Contoh embed video YouTube responsive"
+style={{ maxWidth: '100%', borderRadius: '8px', margin: '16px 0' }}
+/>
+*Sumber: [araweb.com](https://www.araweb.co.uk/Embed_YouTube_videos_with_responsive_code_765) -*
 
 **Caranya:**
 
