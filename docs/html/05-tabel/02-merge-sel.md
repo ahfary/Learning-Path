@@ -7,7 +7,7 @@ title: Menggabungkan Sel (Merge)
 <img
   src="/img/modul/html/merge.png"
   alt="Contoh Penggabungan Sel Tabel HTML dengan Colspan dan Rowspan"
-  style={{ width: '70%', maxWidth: '600px', borderRadius: '8px', margin: '16px auto', display: 'block' }}
+  style={{ width: '70%', maxWidth: '600px', borderRadius: '8px', margin: '16px 0', display: 'block' }}
 />
 
 <small>

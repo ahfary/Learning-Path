@@ -15,7 +15,7 @@ Di tahun 2000-an, tabel sering dipakai untuk mengatur tata letak web (misal: mem
 <img
   src="/img/modul/html/create.webp"
   alt="Struktur Dasar Tabel HTML"
-  style={{ width: '50%', maxWidth: '600px', borderRadius: '8px', margin: '16px auto', display: 'block' }}
+  style={{ width: '50%', maxWidth: '600px', borderRadius: '8px', margin: '16px 0', display: 'block' }}
 />
 
 <small>
@@ -56,7 +56,7 @@ Tabel dibentuk row-by-row (baris demi baris).
 src="/img/modul/html/tag.jpg
 "
 alt="Contoh Tabel HTML dengan Atribut Border"
-style={{ width: '50%', maxWidth: '600px', borderRadius: '8px', margin: '16px auto', display: 'block' }}
+style={{ width: '50%', maxWidth: '600px', borderRadius: '8px', margin: '16px 0', display: 'block' }}
 />
 
 <small> Sumber gambar: course-net.com – Contoh penggunaan tabel HTML </small>

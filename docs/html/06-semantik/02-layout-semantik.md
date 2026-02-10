@@ -7,7 +7,7 @@ title: Elemen Layout Utama
 <img
   src="/img/modul/html/layout.jpg"
   alt="Diagram Struktur Layout HTML5"
-  style={{ width: '50%', maxWidth: '700px', borderRadius: '8px', margin: '16px auto', display: 'block' }}
+  style={{ width: '50%', maxWidth: '700px', borderRadius: '8px', margin: '16px 0', display: 'block' }}
 />
 
 <small>

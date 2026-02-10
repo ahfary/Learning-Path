@@ -17,7 +17,7 @@ Perhatikan perbandingan dua kode di bawah ini yang secara visual (tampilan) mung
 <img
   src="/img/modul/html/non-semantik.png"
   alt="Struktur HTML Non-Semantik Menggunakan Div"
-  style={{ width: '70%', maxWidth: '600px', borderRadius: '8px', margin: '16px auto', display: 'block' }}
+  style={{ width: '70%', maxWidth: '600px', borderRadius: '8px', margin: '16px 0', display: 'block' }}
 />
 
 <small>
@@ -36,7 +36,7 @@ Menggunakan tag generik `<div>` untuk segalanya. Browser tidak tahu mana yang ju
 <img
 src="/img/modul/html/semantik.jpg"
 alt="Struktur HTML Semantik HTML5"
-style={{ width: '70%', maxWidth: '600px', borderRadius: '8px', margin: '16px auto', display: 'block' }}
+style={{ width: '70%', maxWidth: '600px', borderRadius: '8px', margin: '16px 0', display: 'block' }}
 />
 
 <small> Struktur HTML semantik (HTML5) </small>
